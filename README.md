@@ -1,4 +1,4 @@
-# How to set up new React project with Webpack and Hotloader
+## How to set up new React project with Webpack and Hotloader
 
 ### PROCESS
 
@@ -20,11 +20,14 @@
 </html>
 ```
 
+
 #### Install webpack:
 `npm install --save-dev webpack webpack-dev-server webpack-cli`
 
+
 #### Edit Package.json scripts object to add:
 `"start": "webpack-dev-server --config ./webpack.config.js --mode development",`
+
 
 #### Create webpack.config.js in root folder with the following:
 ```
@@ -41,16 +44,20 @@ module.exports = {
 };
 ```
 
+
 #### Create src folder in root with index.js containing:
 `console.log('My Minimal React Webpack Babel Setup');`
 Should log "My Minimal React Webpack Babel Setup" to console
 
+
 #### `npm start` to test working status
+
 
 #### Install babel from root folder
 `npm install --save-dev @babel/core @babel/preset-env`
 `npm install --save-dev babel-loader`
 `npm install --save-dev @babel/preset-react`
+
 
 #### Edit package.json under licence with:
 ```
@@ -62,6 +69,7 @@ Should log "My Minimal React Webpack Babel Setup" to console
 },
 ```
 if react error on next test, delete this
+
 
 #### Update webpack.config.js to:
 ```
@@ -90,6 +98,7 @@ module.exports = {
 };
 ```
 
+
 #### Create .babelrc in root folder with:
 ```
 {
@@ -100,8 +109,10 @@ module.exports = {
 }
 ```
 
+
 #### Install React
 `npm install --save react react-dom`
+
 
 #### Update src/index.js to:
 ```
@@ -116,8 +127,10 @@ ReactDOM.render(
 );
 ```
 
+
 #### Install React Hot Loader
 `npm install --save-dev react-hot-loader`
+
 
 #### Update webpack.config.js to:
 ```
@@ -151,8 +164,11 @@ module.exports = {
   }
 };
 ```
+
+
 #### Update src/index.js with:
 `module.hot.accept();` at bottom of file
+
 
 #### `npm start` to test
 
