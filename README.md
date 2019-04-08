@@ -1,6 +1,6 @@
-#How to set up new React project with Webpack and Hotloader
+# How to set up new React project with Webpack and Hotloader
 
-###Steps
+### PROCESS
 
 ##### Run `npm init`
 
