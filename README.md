@@ -66,7 +66,7 @@ Should log "My Minimal React Webpack Babel Setup" to console
   ]
 },
 ```
-if react error on next test, delete this
+if react error on next test says something about repeat/duplicate babel setting, delete this.
 
 
 #### Update webpack.config.js to:
