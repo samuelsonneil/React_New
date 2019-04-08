@@ -1,12 +1,10 @@
 ## How to set up new React project with Webpack and Hotloader
 
-### PROCESS
 
 ##### Run `npm init`
+Input your details as required
 
-#### Create dist folder in root
-
-#### Create `index.html` in dist folder with:
+#### Create dist folder in root with an index.html containing:
 ```
 <!DOCTYPE html>
 <html>
