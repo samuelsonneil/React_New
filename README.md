@@ -68,7 +68,7 @@ Should log "My Minimal React Webpack Babel Setup" to console
   ]
 },
 ```
-if react error on next test says something about repeat/duplicate babel setting, delete this.
+<span style="color:red">if react error on next test says something about repeat/duplicate babel setting, delete this.</span>
 
 
 #### Update webpack.config.js to:
