@@ -53,7 +53,9 @@ Should log "My Minimal React Webpack Babel Setup" to console
 
 #### Install babel from root folder
 `npm install --save-dev @babel/core @babel/preset-env`
+
 `npm install --save-dev babel-loader`
+
 `npm install --save-dev @babel/preset-react`
 
 
